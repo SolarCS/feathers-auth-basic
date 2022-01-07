@@ -47,8 +47,14 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "chai-as-promised": "^7.1.1",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^9.0.2",
     "semistandard": "^16.0.1"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^4.5.12",
+    "bcryptjs": "^2.4.3",
+    "feathers-memory": "^4.1.0"
   }
 }
